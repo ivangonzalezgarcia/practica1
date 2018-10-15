@@ -1,4 +1,3 @@
-
 public class Category {
 	int id;
 	String name;
@@ -9,4 +8,12 @@ public class Category {
 		name = c_name;
 		parentid = c_parentid;	
 	}
+	
+	int getId() {
+		return this.id;
+	}
+	
+	String getName() {
+		return this.name;
+	} 
 }
