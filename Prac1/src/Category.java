@@ -8,7 +8,7 @@ public class Category {
 		name = c_name;
 		parentid = c_parentid;	
 	}
-	
+	 
 	int getId() {
 		return this.id;
 	}
