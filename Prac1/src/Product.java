@@ -1,16 +1,32 @@
 public class Product {
 	int id;
 	String name;
-	int categoryid;
+	float price;
 	int stock;
 	
-	public Product (int p_id, String p_name, int p_categoryid, int p_stock) {
+	public Product (int p_id, String p_name, float p_price, int p_stock) {
 		id = p_id;
 		name = p_name;
-		categoryid = p_categoryid;
+		price = p_price;
 		stock = p_stock;
 	}
+	
 	int getProductid () {
 		return this.id;
 	}
+	
+	float getPrice() {
+		return this.price;
+	}
+	
+	void comparePrice (int price) {
+	}
+	
+	void print() {
+		System.out.println("ID: " + id);
+		System.out.println("Name: " + name);
+		System.out.println("Price: " + price);
+		System.out.println("Stock: " + stock);
+	}
+
 }
