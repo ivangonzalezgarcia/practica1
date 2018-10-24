@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Product extends Category {
-	
+
 	int productid;
 	String productname;
 	float productprice;
@@ -29,7 +29,7 @@ public class Product extends Category {
 	}
 
 	
-	Product Samsung_galaxy_s9 = new Product(1, "Movil", 1, "Samsung Galaxy S9", 899, 1500);
+	/*Product Samsung_galaxy_s9 = new Product(1, "Movil", 1, "Samsung Galaxy S9", 899, 1500);
 	Product Samsung_galaxy_note = new Product(1, "Movil", 2, "Samsung Galaxy Note", 999, 1500);
 	Product Samsung_tv = new Product(1, "TV", 3, "Samsung Tv Curve", 2999, 500);
 	Product Samsung_speaker = new Product(2, "Accesorios TV", 4, "Samsung Speaker", 99, 600 );
@@ -94,7 +94,7 @@ public class Product extends Category {
 		
 		return priceinGBP;
 	}
-	
+	*/
 	
 	void comparePrice (int Product_Price) {
 				

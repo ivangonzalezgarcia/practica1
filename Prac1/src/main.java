@@ -5,14 +5,9 @@ public class main {
 	public static void main(String[] args) {
 		
 		boolean exit = false;
-		int inputId = 0;
 		@SuppressWarnings("resource")
 		Scanner menu = new Scanner(System.in);
 		
-		Stock stock = new Stock();
-		Buy buy = new Buy();
-		Giveback giveback = new Giveback();
-
 		while(!exit) {
 			
 			System.out.println();
@@ -33,6 +28,7 @@ public class main {
 			case 1:
 				System.out.print("Introducir ID Producto para cambiar la divisa: ");
 				opcion = menu.nextInt();
+				
 
 				break;
 							
@@ -40,7 +36,7 @@ public class main {
 				
 				System.out.println();
 
-				stock.Stockmenu();
+				Stock.Stockmenu();
 				
 				break;
 				
@@ -48,14 +44,14 @@ public class main {
 				
 				System.out.println();
 
-				buy.Buymenu();
+				Buy.Buymenu();
 
 				break;
 				
 			case 4:
 				System.out.println();
 
-				giveback.Givebackmenu();
+				Giveback.Givebackmenu();
 
 				break;
 					

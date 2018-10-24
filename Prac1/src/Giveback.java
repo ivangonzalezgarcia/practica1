@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class Giveback {
-	boolean exit = false;
-	Scanner menu = new Scanner(System.in);
+	static boolean exit = false;
+	static Scanner menu = new Scanner(System.in);
 	
-	void Givebackmenu () {
+	static void Givebackmenu () {
 		
 		
 		Product Samsung_galaxy_s9 = new Product(1, "Movil", 1, "Samsung Galaxy S9", 899, 1500);
