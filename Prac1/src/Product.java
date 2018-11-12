@@ -27,6 +27,15 @@ public class Product extends Category {
 		this.productstock = productstock;
 		
 	}
+	
+	
+	int getProductid() { return productid; }
+ 	
+	String getProductname() { return productname; }
+	
+	float getProductprice() { return productprice; }
+	
+	int getProductstock() { return productstock; }
 
 	
 	/*Product Samsung_galaxy_s9 = new Product(1, "Movil", 1, "Samsung Galaxy S9", 899, 1500);

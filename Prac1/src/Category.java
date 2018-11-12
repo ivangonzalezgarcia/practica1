@@ -6,6 +6,11 @@ public class Category {
 		this.id = c_id;
 		this.name = c_name;
 	}
+	
+	int getCategoryid() { return id; }
+ 	
+	String getCategoryname() { return name; }
+
 	 
 	int getId() {
 		return this.id;
@@ -13,5 +18,7 @@ public class Category {
 	
 	String getName() {
 		return this.name;
-	} 
+	}
+	
+
 }
