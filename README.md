@@ -1,6 +1,15 @@
 # Practica 1
  Este es un programa de venta de productos a clientes. 
  
- Entre sus funciones exiten las de comprar, devolver, cambiar de divisa...
+ ## Funciones
+ Entre sus funciones exiten siguientes:
+· Comprar
+· Devolver
+· Cambiar de divisa
+· Etc
  
- Las dificultades que he encontrado han sido resolver algunos de los problemas de compilacion que me han surgido y aplicar los conceptos de herencia.
+ ## Dificultades encontradas
+ Las dificultades que he encontrado han sido:
+· Resolver algunos de los problemas de compilacion que me han surgido
+· Aplicar los conceptos de herencia.
+ 
